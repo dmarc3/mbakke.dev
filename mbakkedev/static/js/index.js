@@ -1,0 +1,1 @@
+new cursoreffects.airplaneCursor({ element: document.querySelector("#airplane") })

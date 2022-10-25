@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Moving Cursor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+    <script src="{{ url_for('static', filename='js/browser.js') }}"></script>
+  </head>
+  <body>
+    <div class="cursor">
+      <div class="box">
+        <div class="info">
+          <div class="name">
+            <span>Airplane</span>
+          </div>
+          <div class="byline">
+            This will eventually be an airplane...
+          </div>
+        </div>
+        <div id="airplane" class="effect"></div>
+      </div>
+    </div>
+    <script async src="{{ url_for('static', filename='js/index.js') }}"></script>
+  </body>
+</html>
